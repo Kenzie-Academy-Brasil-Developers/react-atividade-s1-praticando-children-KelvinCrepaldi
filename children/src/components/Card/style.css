@@ -1,0 +1,38 @@
+li {
+  font-size: 15px;
+  text-align: left;
+  margin: 5px;
+}
+h1 {
+  font-size: 50px;
+  width: 100%;
+  margin: 20px 0px 10px 0px;
+}
+
+h2 {
+  margin: 10px;
+  font-size: 30px;
+}
+
+.container {
+  margin: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.356);
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+
+.container:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  transition: 0.2s;
+}
+
+.div-esquerda {
+  width: 49%;
+}
+
+.div-direita {
+  width: 49%;
+}
